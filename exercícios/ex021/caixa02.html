@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    header {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(211, 211, 211);
+        margin:0px;
+    }
+    h1 {
+        background-color:rgb(120, 12, 145);
+        color: white;
+        margin: auto;
+        text-align: center;
+    }
+    nav > ul > li {
+        display: inline;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(120, 12, 145);
+        font-weight: bold;
+
+        border: 2px darksalmon solid;
+        margin: 80px;
+        padding: 2px;
+    }
+    a:hover {
+        color: darksalmon;
+    }
+    form {
+        display: inline;
+    }
+    form > input {
+        border-color: rgb(120, 12, 145);
+        border-style:solid;
+        font-size: 15px;    
+    }
+    form > button {
+        background-color: darksalmon;
+        color: rgb(120, 12, 145);
+        font-size: 15px;
+        margin: 2px;    
+    }
+    h2 {
+        background-color: darksalmon;
+        border: 2px solid rgb(120, 12, 145);
+        padding: 5px;
+        width: 280px;
+        margin: 5px;
+        text-align: left;
+    }
+    main {
+        background-color: rgb(228, 228, 228);
+        text-align: justify;
+        margin: 10px;
+        padding: 10px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        margin: 0px;
+        padding: 3px;
+        text-align: center;
+    }
+    article > aside {
+        background-color: rgb(170, 169, 169);
+        margin: 1px;
+    }
+    footer > p {
+        margin: 0px;
+
+    }
+    div#bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank" rel="external">Home</a></li>
+                <li><a href="#" target="_blank" rel="external">Projects</a></li>
+                <li><a href="#" target="_blank" rel="external">Products</a></li>
+                <li><a href="#" target="_blank" rel="external">Contact</a></li>
+                <form action="/abc.js" method="post">
+                    <input type="search" name="Pesquisar" id="Search" placeholder="Digite aqui">
+                    <button type="submit">Pesquisar</button>
+                </form>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <body>
+        <main>
+            <h2>Projetos Personalizados</h2>
+            <section id="notícias">
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ratione rem qui? Iusto odio a animi. Enim quas tempora, libero, porro deserunt, temporibus tenetur magni doloremque delectus quos laborum dolor.</p>
+                </article>
+            </section>
+            <section id="artigos">
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt similique corrupti optio eos laboriosam ullam cupiditate amet, quis culpa nisi. Fugit sint velit, dolores recusandae exercitationem quae mollitia deleniti!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ea inventore impedit saepe esse error officia reiciendis, nemo libero veritatis cum placeat eum similique temporibus, obcaecati illum qui assumenda quod?</p>
+                    <aside>
+                      <p>Artigo escrito por <em>Lion de Campos</em></p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por Vinícius e Cursoemvídeo</p>
+        </footer>
+        <div id="bola"></div>
+    </body>
+    
+</body>
+</html>
