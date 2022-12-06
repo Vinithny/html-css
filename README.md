@@ -1,0 +1,1 @@
+Nesse repositório contém exercícos e desafios de html-css do CursoemVídeo do Prof. Guanabara.
