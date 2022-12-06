@@ -1,1 +1,1 @@
-Nesse repositório contém exercícos e desafios de html-css do CursoemVídeo do Prof. Guanabara.
+Nesse repositório contém exercícos e desafios de HTML5 e CSS3 do CursoemVídeo do Prof. Guanabara.
