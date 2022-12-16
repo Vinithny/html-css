@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: gray;
+            color: white;
+        }
+        td.num {
+            text-align: right;
+
+        }
+        td#total {
+            background-color: gray;
+            color: white;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+        CAPITION
+        THEAD
+           TR, TD, TH
+        TBODY
+           TR, TD, TH
+        TFOOT
+           TR, TD, TH
+    -->
+    
+    <table>
+        <caption>População das Unidades Federatifas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col"style="width:50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num"> 21.014.531</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">54.265.145</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">43.125.489</td>
+            </tr>
+            <tr>
+                <td>Macapá</td>
+                <td class="num">23.214.231</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">56.321.479</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.231.984</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">12.532.681</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td id="total"><strong>129.2321.451</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
